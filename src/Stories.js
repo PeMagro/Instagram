@@ -7,7 +7,7 @@ function Stories(){
     const carousel = useRef(null);
 
     useEffect(() => {
-        fetch('http://localhost:3000/static/stories.json')
+        fetch('https://instagram-beta-eight.vercel.app/static/stories.json' || 'http://localhost:3000/static/stories.json')
         .then((response) => response.json())
         .then(setData);
     }, []);
