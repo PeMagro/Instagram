@@ -1,15 +1,23 @@
 import './Conteudo.css';
 import proa_logo from './proa_logo.png'
 import proa_publi from './publi_1.png';
+import ret_perfil from './filiperet_perfil.jpg';
+import ret_post from './filiperet_post.jpg';
+import l7_perfil from './l7_perfil.jpg';
+import l7_post from './l7_post.jpg';
 
 function Conteudo() {
     return (
         <div className="Conteudo">
             <section className="postagens">
                 <div className="postagens_perfil">
-                    <img src={proa_logo} alt="imagem perfil proa" />
-                    <p className="nome_perfil">instituto.proa</p>
-                    <button className="pontinhos"><svg aria-label="Mais opções" class="_8-yf5 " color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24"><circle cx="12" cy="12" r="1.5"></circle><circle cx="6" cy="12" r="1.5"></circle><circle cx="18" cy="12" r="1.5"></circle></svg></button>
+                    <div className="perfil_publi">
+                        <img src={proa_logo} alt="imagem perfil proa" />
+                        <p className="nome_perfil">insituto.proa</p>
+                    </div>
+                    <div className='btn_perfil_publi'>
+                        <button className="pontinhos"><svg aria-label="Mais opções" class="_8-yf5 " color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24"><circle cx="12" cy="12" r="1.5"></circle><circle cx="6" cy="12" r="1.5"></circle><circle cx="18" cy="12" r="1.5"></circle></svg></button>
+                    </div>
                 </div>
                 <div className="postagens_imagem">
                     <img src={proa_publi} alt="publicação dos instituto proa" />
@@ -47,12 +55,16 @@ function Conteudo() {
             </section>
             <section className="postagens">
                 <div className="postagens_perfil">
-                    <img src={proa_logo} alt="imagem perfil proa" />
-                    <p className="nome_perfil">instituto.proa</p>
-                    <button className="pontinhos"><svg aria-label="Mais opções" class="_8-yf5 " color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24"><circle cx="12" cy="12" r="1.5"></circle><circle cx="6" cy="12" r="1.5"></circle><circle cx="18" cy="12" r="1.5"></circle></svg></button>
+                    <div className="perfil_publi">
+                        <img src={ret_perfil} alt="imagem perfil proa" />
+                        <p className="nome_perfil">filiperet</p>
+                    </div>
+                    <div className='btn_perfil_publi'>
+                        <button className="pontinhos"><svg aria-label="Mais opções" class="_8-yf5 " color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24"><circle cx="12" cy="12" r="1.5"></circle><circle cx="6" cy="12" r="1.5"></circle><circle cx="18" cy="12" r="1.5"></circle></svg></button>
+                    </div>
                 </div>
                 <div className="postagens_imagem">
-                    <img src={proa_publi} alt="publicação dos instituto proa" />
+                    <img src={ret_post} alt="publicação dos instituto proa" />
                 </div>
                 <div className="postagens_comentario">
                     <div className="comentario_icones">
@@ -67,16 +79,16 @@ function Conteudo() {
                     </div>
 
                     <div className="curtido_por">
-                            <img src={proa_logo} alt="Curtido por instituto proa" />
-                            <p>Curtido por <span>instituto.proa</span> e <span>outras pessoas</span></p>
+                            <img src={l7_perfil} alt="Curtido por instituto proa" />
+                            <p>Curtido por <span>l7nnon</span> e <span>outras pessoas</span></p>
                         </div>
 
                     <div className="comentario">
-                        <p className="comentario_nome">instituto.proa</p>
-                        <p className="comentario_titulo">É com muito orgulho que anunciamos que o PROA ganhou o selo do Great...</p>
+                        <p className="comentario_nome">filiperet</p>
+                        <p className="comentario_titulo">🌪</p><br />
                         <p className="comentario_mais">mais</p>
                         <p className="comentario_mais">Ver todos os 36 comentarios</p>
-                        <p className="comentario_tempo">HÁ 2 SEMANAS</p>
+                        <p className="comentario_tempo">HÁ 1 SEMANA</p>
                         <div className="barra_comentario">
                             <button className="emoji"><svg aria-label="Emoji" id="rosto"class="_8-yf5 " color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z"></path></svg></button>
                             <textarea placeholder="Adicione um comentário..." autoComplete="off" autoCorrect="off" />
@@ -87,12 +99,16 @@ function Conteudo() {
             </section>
             <section className="postagens">
                 <div className="postagens_perfil">
-                    <img src={proa_logo} alt="imagem perfil proa" />
-                    <p className="nome_perfil">instituto.proa</p>
-                    <button className="pontinhos"><svg aria-label="Mais opções" class="_8-yf5 " color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24"><circle cx="12" cy="12" r="1.5"></circle><circle cx="6" cy="12" r="1.5"></circle><circle cx="18" cy="12" r="1.5"></circle></svg></button>
+                    <div className="perfil_publi">
+                        <img src={l7_perfil} alt="imagem perfil proa" />
+                        <p className="nome_perfil">l7nnon</p>
+                    </div>
+                    <div className='btn_perfil_publi'>
+                        <button className="pontinhos"><svg aria-label="Mais opções" class="_8-yf5 " color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24"><circle cx="12" cy="12" r="1.5"></circle><circle cx="6" cy="12" r="1.5"></circle><circle cx="18" cy="12" r="1.5"></circle></svg></button>
+                    </div>
                 </div>
                 <div className="postagens_imagem">
-                    <img src={proa_publi} alt="publicação dos instituto proa" />
+                    <img src={l7_post} alt="publicação dos instituto proa" />
                 </div>
                 <div className="postagens_comentario">
                     <div className="comentario_icones">
@@ -107,16 +123,16 @@ function Conteudo() {
                     </div>
 
                     <div className="curtido_por">
-                            <img src={proa_logo} alt="Curtido por instituto proa" />
-                            <p>Curtido por <span>instituto.proa</span> e <span>outras pessoas</span></p>
+                            <img src={ret_perfil} alt="Curtido por instituto proa" />
+                            <p>Curtido por <span>filiperet</span> e <span>outras pessoas</span></p>
                         </div>
 
                     <div className="comentario">
-                        <p className="comentario_nome">instituto.proa</p>
-                        <p className="comentario_titulo">É com muito orgulho que anunciamos que o PROA ganhou o selo do Great...</p>
+                        <p className="comentario_nome">l7nnon</p>
+                        <p className="comentario_titulo">Nem é meia noite ainda</p><br />
                         <p className="comentario_mais">mais</p>
                         <p className="comentario_mais">Ver todos os 36 comentarios</p>
-                        <p className="comentario_tempo">HÁ 2 SEMANAS</p>
+                        <p className="comentario_tempo">HÁ 3 SEMANAS</p>
                         <div className="barra_comentario">
                             <button className="emoji"><svg aria-label="Emoji" id="rosto"class="_8-yf5 " color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z"></path></svg></button>
                             <textarea placeholder="Adicione um comentário..." autoComplete="off" autoCorrect="off" />

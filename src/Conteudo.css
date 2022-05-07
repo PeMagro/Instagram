@@ -14,7 +14,7 @@
 .postagens {
     position: relative;
     width: 100%;
-    height: 900px;
+    height: 890px;
     background-color: rgb(255,255,255);
     border: #d3d3d3 1px solid;
     border-radius: 5px;
@@ -30,12 +30,22 @@
     align-items: center;
 }
 
-.postagens_perfil img {
+.perfil_publi {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.perfil_publi img {
     position: relative;
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
     margin-left: 1vw;
+    cursor: pointer;
 }
 
 .nome_perfil {
@@ -55,9 +65,14 @@
     height: 614px;
 }
 
+.btn_perfil_publi {
+    position: relative;
+    width: 20%;
+}
+
 .pontinhos {
     position: relative;
-    margin-left: 26.5vw;
+    margin-left: 5vw;
 }
 
 .postagens_imagem img {
@@ -141,6 +156,7 @@
     font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #262626;
+    cursor: pointer;
 }
 
 .comentario_titulo {
@@ -199,9 +215,10 @@
 .barra_comentario textarea {
     position: relative;
     width: 70%;
+    height: 25px;
     resize: none;
     outline: none;
-    margin-top: 2vh;
+    margin-top: 1vh;
     font-size: 14px;
     font-weight: 400;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
